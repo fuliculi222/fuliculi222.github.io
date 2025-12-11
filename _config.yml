@@ -1,9 +1,23 @@
-title: "fuliculi222 (Félix)"
-description: "Apuntes"
-theme: jekyll-theme-dinky
+title: "Apuntes del Estado"
+description: "Resúmenes y apuntes de adm. Pública"
+theme: just-the-docs
 
-markdown: kramdown
+# Habilita búsqueda integrada
+just_the_docs:
+  search_enabled: true
+  # Tabla de contenidos automática (sidebar)
+  toc:
+    enabled: true
+    sidebar: true
 
-kramdown:
-  input: GFM
-  toc_levels: 2..4
+# Plugins permitidos por GitHub Pages
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Repositorio (opcional si es GitHub Pages)
+# url: "https://usuario.github.io/sitio"
+# baseurl: "/sitio"
+
+# Orden de navegación (opcional)
+nav_order: 1
