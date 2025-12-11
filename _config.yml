@@ -1,23 +1,13 @@
 title: "Apuntes del Estado"
-description: "Resúmenes y apuntes de adm. Pública"
-theme: just-the-docs
+description: "Resúmenes y apuntes de Adm. Pública"
 
-# Habilita búsqueda integrada
-just_the_docs:
-  search_enabled: true
-  # Tabla de contenidos automática (sidebar)
-  toc:
-    enabled: true
-    sidebar: true
+# Tema remoto (obligatorio para GitHub Pages)
+remote_theme: just-the-docs/just-the-docs
 
-# Plugins permitidos por GitHub Pages
 plugins:
   - jekyll-remote-theme
-  - jekyll-seo-tag
 
-# Repositorio (opcional si es GitHub Pages)
-# url: "https://usuario.github.io/sitio"
-# baseurl: "/sitio"
-
-# Orden de navegación (opcional)
-nav_order: 1
+# Configuración del tema
+just_the_docs:
+  search_enabled: true
+  enable_heading_ids: true
