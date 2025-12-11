@@ -1,12 +1,18 @@
 title: "fuliculi222 (Félix)"
-
-remote_theme: just-the-docs/just-the-docs
+description: "Apuntes"
+theme: minima
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-toc
 
-just_the_docs:
-  toc:
-    enabled: true
-    sidebar: true
-  enable_heading_ids: true
+toc:
+  min_level: 2
+  max_level: 4
+  list_class: "toc"
+  heading: "Contenido"
+
+markdown: kramdown
+kramdown:
+  input: GFM
