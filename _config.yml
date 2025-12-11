@@ -1,18 +1,9 @@
 title: "fuliculi222 (Félix)"
 description: "Apuntes"
-theme: minima
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-toc
-
-toc:
-  min_level: 2
-  max_level: 4
-  list_class: "toc"
-  heading: "Contenido"
+theme: jekyll-theme-dinky
 
 markdown: kramdown
+
 kramdown:
   input: GFM
+  toc_levels: 2..4
