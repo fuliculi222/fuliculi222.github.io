@@ -6,3 +6,4 @@ just_the_docs:
   toc:
     enabled: true
     sidebar: true
+  enable_heading_ids: true
